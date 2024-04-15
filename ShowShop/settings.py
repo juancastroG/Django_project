@@ -122,7 +122,6 @@ STATIC_URL = '/python/static/'
 STATIC_ROOT = '/usr/local/lsws/Example/html/Django_project/public/static'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/usr/local/lsws/Example/html/Django_project/public/static',
 ]
 
 MEDIA_ROOT = BASE_DIR / 'mediafiles'
