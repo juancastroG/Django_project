@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2a@(9b3j(7*&y$qahgj-=-5fc)3#1it-jaj+#=oi9q(kb^$t%(
 
 # settings.py
 
-ALLOWED_HOSTS = ['boutiquesensations.com', 'www.boutiquesensations.com', 'localhost', '31.220.17.121','127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -125,7 +125,7 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_ROOT = BASE_DIR / 'mediafiles'
-MEDIA_URL = '/media/'
+MEDIA_URL = '/mediafiles/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
