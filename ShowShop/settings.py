@@ -22,8 +22,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-2a@(9b3j(7*&y$qahgj-=-5fc)3#1it-jaj+#=oi9q(kb^$t%('
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
 
 # settings.py
 
@@ -130,3 +128,6 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
