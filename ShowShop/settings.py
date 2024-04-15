@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-2a@(9b3j(7*&y$qahgj-=-5fc)3#1it-jaj+#=oi9q(kb^$t%(
 
 # settings.py
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['boutiquesensations.com', 'www.boutiquesensations.com', 'localhost', '31.220.17.121','127.0.0.1','boutiquesensations/admin','boutiquesensations.com/admin','www.boutiquesensations.com/admin']
 
 
 # Application definition
